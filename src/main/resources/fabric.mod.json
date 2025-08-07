@@ -3,13 +3,13 @@
 	"id": "randomstuff",
 	"version": "${version}",
 	"name": "randomstuff",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is me trying to learn how to make a minecraft mod, and adding just about whatever I think of adding",
 	"authors": [
 		"Adrian Tennies!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://adriantennies.vercel.app",
+		"sources": "https://github.com/thesillyboi/MCrandomstuff"
 	},
 	"license": "MIT",
 	"icon": "assets/randomstuff/icon.png",
