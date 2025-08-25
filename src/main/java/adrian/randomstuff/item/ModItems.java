@@ -16,6 +16,7 @@ import net.minecraft.util.Rarity;
 
 import java.util.function.Function;
 
+
 public class ModItems {
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
         // Create the item key.
@@ -32,22 +33,42 @@ public class ModItems {
     static {
         hatchet = register("hatchet", Item::new, new Item.Settings());
     }
+//    public static final Item lightsaber_core = register(new Item(new Item.Settings()
+//            .maxCount(1)
+//            .rarity(Rarity.EPIC)
+//            .fireproof()
+//    ));}
 
     public static final Item lightsaber = register(
             "lightsaber",
             settings -> new Item(
-                    settings.sword(ToolMaterial.WOOD,
-                            3.0f,
+                    settings.sword(ToolMaterial.DIAMOND,
+                            9.0f,
                             -2.4f)
             ),
             new Item.Settings()
     );
 
+    public static final Item lightsaber_core = registerItem("lightsaber_core",
+            new Item(new Item.Settings().fireproof()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Randomstuff.MOD_ID, "lightsaber_core")))));
+
+
+
+
+
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registries.ITEM, Identifier.of(Randomstuff.MOD_ID, name), item);
+    }
+
     public static void initialize() {
+        Randomstuff.LOGGER.info("Registering Mod Items for " + Randomstuff.MOD_ID);
+        // Add items to creative tab
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
                 .register(group -> {
-                    group.add(ModItems.hatchet);
-                    group.add(ModItems.lightsaber);
+                    group.add(lightsaber_core);
+                    group.add(hatchet);
+                    group.add(lightsaber);
                 });
     }
 }
