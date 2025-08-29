@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "IN",
+    "NS"
+  ],
+  "key": {
+    "N": ["minecraft:iron_nugget"],
+    "I": ["minecraft:iron_ingot"],
+    "S": ["minecraft:stick"]
+  },
+  "result": {
+    "id": "randomstuff:hatchet",
+    "count": 0
+  },
+  "show_notification": false
+}
+

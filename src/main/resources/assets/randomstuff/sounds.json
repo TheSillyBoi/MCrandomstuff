@@ -1,0 +1,10 @@
+{
+  "lightsaber.ignite": {
+    "sounds": [ { "name": "randomstuff:ignite" } ]
+  },
+  "lightsaber.swing": {
+    "sounds": [ { "name": "randomstuff:swing" } ]
+  }
+}
+
+

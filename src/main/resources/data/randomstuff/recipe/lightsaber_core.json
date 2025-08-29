@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EGE",
+    "GDG",
+    "EGE"
+  ],
+  "key": {
+    "E": [
+      "minecraft:emerald"
+    ],
+    "G": [
+      "minecraft:glass"
+    ],
+    "D": [
+      "minecraft:diamond"
+    ]
+  },
+  "result": {
+    "id": "randomstuff:lightsaber_core",
+    "count": 0
+  }
+}
