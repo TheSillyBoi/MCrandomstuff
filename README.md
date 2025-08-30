@@ -23,7 +23,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT][license-shield]][license-url]
-[![AI Assisted Maybe](https://img.shields.io/badge/AI%20Assisted-Maybe-red?style=for-the-badge)](https://github.com/mefengl/made-by-ai)
+[![AI Assisted Partially](https://img.shields.io/badge/AI%20Assisted-Partially-red?style=for-the-badge)](https://github.com/mefengl/made-by-ai)
 
 
 
@@ -75,7 +75,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-### Disclaimer: I am very knew to Minecraft Modding at the time of making this
+### Disclaimer: I am very new to Minecraft Modding, and the Java Programming Language at the time of making this
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,14 +92,13 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is a Fabric Minecraft mod, so it's standard procedure(other than that I never put it on Curseforge or even Modrinth)
+> If you've done Minecraft(Java) Modding previously, it's the same installation instructions as any other, simply put, It's a fabric mod, and depends on the fabric API. More in depth Instructions below ↴
 
 ### Prerequisites:.
-* Obtain a Copy of Minecraft: Java Edition
-(or you can just use test with the development environment by doing `./gradlew runClient`)
+* Obtain a Copy of Minecraft: Java Edition and follow the below instructions
+(or you can just use test within the development environment by doing `./gradlew runClient`)
 *
 ### Installation
-
 1. Install Minecraft: Java Edition (Through any launcher that supports modding, which includes the base launcher)
 2. Download the most recent release of MCRandomstuff(this mod) from github
 3. Download and run the Fabric Installer, for 1.21.8(or install Fabric another way)
@@ -112,8 +111,15 @@ This is a Fabric Minecraft mod, so it's standard procedure(other than that I nev
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+![Hatchet Recipe](https://raw.githubusercontent.com/TheSillyBoi/MCrandomstuff/3270dcb90988ed9510fd3884d3b5a6cfaafa66cf/Demos/Hatchet.png)
+#### This is a Hatchet, It's similar to an axe, where you can cut trees and similar, but you can also use it on logs and planks in order to split them, ex: right clicking on a log will break it and give you four planks, and same for planks, but it'll split it into 2 slabs
 
+![Lightsaber Core Recipe](https://raw.githubusercontent.com/TheSillyBoi/MCrandomstuff/3270dcb90988ed9510fd3884d3b5a6cfaafa66cf/Demos/LightSaber_Core.png)
 
+#### This is a Lightsaber Core, it's a crafting ingredient for making a lightsaber(which is below), nothing more, nothing less
+
+![](https://raw.githubusercontent.com/TheSillyBoi/MCrandomstuff/3270dcb90988ed9510fd3884d3b5a6cfaafa66cf/Demos/Lightsaber.png)
+#### This is a Lightsaber, it's similar to a sword, so you can hit in a sweeping pattern, but you can also Dash, where if you right click on a block within 20m, it'll dash you there
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -121,10 +127,9 @@ This is a Fabric Minecraft mod, so it's standard procedure(other than that I nev
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Adding Tooltips to the Lightsaber and Hatchet
+- [ ] Allowing Enchanting of the Lightsaber and Hatchet
+
 
 See the [open issues](https://github.com/thesillyboi/MCrandomstuff/issues) for a full list of proposed features (and known issues).
 
@@ -179,9 +184,8 @@ Project Link: [https://github.com/thesillyboi/MCrandomstuff](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Thanks to the FabricMC Team for making modding this game reasonably simple](https://fabricmc.net)
+* [Thanks to Mojang for making the game](https://minecraft.net)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
